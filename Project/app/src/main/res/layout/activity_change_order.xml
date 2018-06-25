@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.project.ChangeOrder">
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dip"
+        android:text="Select order"
+        android:background="#89fad4"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        />
+
+    <!-- Spinner Dropdown -->
+    <Spinner
+        android:id="@+id/spinner1"
+        android:background="#5aaef4"
+        android:popupBackground="#5aaef4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="8dip"
+        android:padding="8dip"
+        android:layout_margin="10dp"
+        android:layout_marginRight="8dip" />
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dip"
+            android:text="Select Customer id "
+            android:background="#89fad4"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"
+            />
+        <!-- Spinner Dropdown -->
+        <Spinner
+            android:id="@+id/spinner2"
+            android:background="#5aaef4"
+            android:popupBackground="#5aaef4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dip"
+            android:text="Select order for selected customer id"
+            android:background="#89fad4"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="0dp"
+            tools:layout_editor_absoluteX="0dp"
+            />
+        <!-- Spinner Dropdown -->
+        <Spinner
+            android:id="@+id/spinner3"
+            android:background="#5aaef4"
+            android:popupBackground="#5aaef4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="8dip"
+            android:layout_marginRight="8dip"
+            android:layout_margin="10dp"/>
+
+        <Button
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="change"/>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cancel"/>
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

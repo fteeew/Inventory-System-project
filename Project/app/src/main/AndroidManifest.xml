@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProductActivity" />
+        <activity android:name=".CustomerDisplay" />
+        <activity android:name=".Order_Activity" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".pActivity" />
+        <activity android:name=".AddProduct" />
+        <activity android:name=".AddPayment" />
+        <activity android:name=".showPayment" />
+        <activity android:name=".showOrder" />
+        <activity android:name=".LoadData" />
+        <activity android:name=".OrderDetails" />
+        <activity android:name=".Cover" />
+        <activity android:name=".AddCustomer" />
+        <activity android:name=".deleteCustomer" />
+        <activity android:name=".deletePayment" />
+        <activity android:name=".deleteOrder" />
+        <activity android:name=".ChangeOrder" />
+        <activity android:name=".PaymentNotification"></activity>
+    </application>
+
+</manifest>
